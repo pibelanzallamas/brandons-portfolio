@@ -7,9 +7,10 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <div></div>
-    </>
+    <div className={"ibm-plex-mono-regular"}>
+      <h1>Brandon Castillo </h1>
+      <div>Esta es la pagina de Brandon Castillo.</div>
+    </div>
   );
 }
 
