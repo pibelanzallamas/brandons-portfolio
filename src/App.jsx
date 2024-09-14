@@ -1,16 +1,14 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import "./app.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className={"ibm-plex-mono-regular"}>
+    <>
       <h1>Brandon Castillo </h1>
       <div>Esta es la pagina de Brandon Castillo.</div>
-    </div>
+    </>
   );
 }
 
