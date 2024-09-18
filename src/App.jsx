@@ -1,11 +1,14 @@
 import { useState } from "react";
-import "./app.css";
+import "./styles/app.css";
+import AppRoutes from "./components/AppRoutes";
+import { Link } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <AppRoutes />
       <h1>Brandon Castillo </h1>
       <div>Esta es la pagina de Brandon Castillo.</div>
       <div className="redes">
@@ -38,6 +41,11 @@ function App() {
             </figure>
           </a>
         </li>
+      </div>
+      <div>
+        <Link to="/home">
+          <button className="brandon-boton">Entrar</button>
+        </Link>
       </div>
     </>
   );
