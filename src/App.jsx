@@ -9,15 +9,7 @@ function App() {
   return (
     <>
       <AppRoutes />
-      <h1>Brandon Castillo </h1>
-      <div>Esta es la pagina de Brandon Castillo.</div>
-      <div className="redes">
-        <li className="card">
-          <a href="mailto:brandoncastillo.09@gmail.com">
-            <p>brandoncastillo.09@gmail.com</p>
-          </a>
-        </li>
-
+      <div>
         <li>
           <a href="https://github.com/pibelanzallamas/" target="_blank">
             <figure className="redes-icons">
